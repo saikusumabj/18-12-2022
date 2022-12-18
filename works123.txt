@@ -1,0 +1,74 @@
+86. Write a Python program to get the ASCII value of a character?
+A)k=input("Enter your value:")
+print("The ascii value"+k+"is",ord(k))
+j=input("Enter your value:")
+print("the ascii value"+k+"is",ord(j))
+
+89. Write a Python program to perform an action if a condition is true?
+Given a variable name, if the value is 1, display the string "First day of a Month!" and do nothing if the value is not equal.
+A)
+n=input("enter your number:")
+if n==1:
+    print("First day of a Month!")
+else:
+    print("do nothing") 
+
+95. Write a Python program to check whether a string is numeric?
+A)a="12345" 
+b=a.isnumeric()
+print(b)   
+
+135. Write a Python program to print a variable without spaces between values?
+Sample value : x =30
+Expected output : Value of x is "30"
+A)x=30
+print('The value of x is"{}"'.format(x))
+
+
+128. Write a Python program to check whether lowercase letters exist in a string?
+A)str1='A8238i823acdeOUEI'
+print(any(c.lower for c in str1))   
+
+26. Write a Python program to create a histogram from a given list of integers?
+A)def histogram(items):
+    for n in items:
+        output=''
+        times=n
+        while(times>0):
+            output+='*'
+            times=times-1
+            print(output)
+histogram([1,2,3,4,5])    
+
+
+40. Write a Python program to compute the distance between the points (x1, y1) and (x2, y2)?
+A)x1=float(input("Enter your value:"))
+x2=float(input("Enter your number:"))
+y1=float(input("enter your value:"))
+y2=float(input("Enter your number:"))
+d=( (x2-x1)**2 + (y2-y1)**2 )**0.5
+print('Distance:',d)
+
+43. Write a Python program to get OS name, platform and release information?
+A)import platform
+import os
+print("Name of the operating system:",os.name)
+print("Name of the os system:",platform.system())
+print("Version of the systen:",platform.release())  
+
+57. Write a Python program to get execution time for a Python method?
+A)import time 
+start=time.time()
+print(start)
+
+63. Write a Python program to get an absolute file path?
+A)import os
+print(os.path.abspath('puuzzles.py'))
+
+
+
+
+
+
+
+   
